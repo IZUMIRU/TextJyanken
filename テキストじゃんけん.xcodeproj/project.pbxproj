@@ -143,7 +143,6 @@
 				C7343EA41A89986900D857EA /* Main.storyboard */,
 				C7343EA71A89986900D857EA /* Images.xcassets */,
 				C7343EA91A89986900D857EA /* LaunchScreen.xib */,
-				FD6D4CF11C79735B008E58A3 /* Defaults-master */,
 				FD6D4CC31C796E2C008E58A3 /* ios */,
 				FD6377561C7892F20016D3F6 /* Images */,
 				C7343E9E1A89986900D857EA /* Supporting Files */,
@@ -154,6 +153,7 @@
 		C7343E9E1A89986900D857EA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD6D4CF11C79735B008E58A3 /* Defaults */,
 				C7343E9F1A89986900D857EA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -224,13 +224,14 @@
 			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
-		FD6D4CF11C79735B008E58A3 /* Defaults-master */ = {
+		FD6D4CF11C79735B008E58A3 /* Defaults */ = {
 			isa = PBXGroup;
 			children = (
 				FD6D4CF21C79735B008E58A3 /* Default-568h@2x.png */,
 				FD6D4CF31C79735B008E58A3 /* Default-667h@2x.png */,
 				FD6D4CF41C79735B008E58A3 /* Default-736h@3x.png */,
 			);
+			name = Defaults;
 			path = "Defaults-master";
 			sourceTree = "<group>";
 		};
